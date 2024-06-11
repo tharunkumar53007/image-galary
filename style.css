@@ -1,3 +1,7 @@
+*{
+    user-select: none;
+}
+
 .galary{
     display: inline-block;
     width: 200px;
@@ -19,6 +23,8 @@
 .galary:hover{
     border: 2px solid rgb(17, 17, 17);
     box-shadow: 2px 2px 7px black ;
+    background-color: greenyellow;
+    font-weight: bold;
 }
 
 @media screen and (max-width:600px) {
